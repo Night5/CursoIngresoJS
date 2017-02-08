@@ -2,6 +2,15 @@
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function Mostar()
 {	
-	
+	var nombre = document.getElementById("elNombre").value;
+	var edad = document.getElementById("laEdad").value;
+	alert("Usted se llama " + nombre +  " y tiene " + edad + " años.");
+
+ /* Creamos una variable, obtenemos el valor por ID y
+ y lo guardamos dentro de la variable.
+ Luego lo concatenamos en un alaert.
+ Concatenamos = unir las partes con "+"
+*/
+
 }
 

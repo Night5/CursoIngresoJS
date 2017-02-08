@@ -3,8 +3,8 @@ y luego mostrarlo por 'alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
 	var a;
-	a = prompt ("Ingrese un nùmero;", "0");
-	alert = (a)
+	a = prompt("Ingrese un nùmero;");
+	alert(a); 
 	
 
 
